@@ -1,0 +1,294 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body,
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+html {
+  font-size: 16px;
+}
+*:focus {
+  outline: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+h2,
+.h2 {
+  font-size: 2rem;
+}
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+h6,
+.h6 {
+  font-size: .8rem;
+}
+header {
+    width: 28%;
+    height: 372px;
+    box-shadow: 8px 14px 52px -33px;
+}
+header section .title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 41px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+header section {
+  display: flex;
+}
+header section .title-2 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 98px;
+  margin-top: 24px;
+}
+header section .title-3 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 24px;
+  margin-left: 29px;
+}
+input[type="text"] {
+  font-family: 'Montserrat', sans-serif;
+}
+input[type="text"] {
+  width: 146px;
+  border: 1px solid #c7c7cf;
+}
+input[type="text"] {
+  border-radius: 4px;
+  height: 41px;
+  margin-left: 29px;
+  margin-top: 7px;
+  background: url(images/arrow.png) no-repeat 122px 17px;
+  color: #6c6d83;
+}
+input[type="text2"] {
+  font-family: 'Montserrat', sans-serif;
+}
+input[type="text2"] {
+  width: 146px;
+  border: 1px solid #c7c7cf;
+}
+input[type="text2"] {
+  border-radius: 4px;
+  height: 41px;
+  margin-left: 16px;
+  background: url(images/arrow.png) no-repeat 122px 17px;
+  color: #6c6d83;
+}
+section .guests .text {
+    margin-top: 20px;
+    margin-left: 29px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+section .guests .title-guests {
+  margin-left: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 21px;
+}
+section #guests-select {
+    border-radius: 4px;
+    height: 44px;
+    margin-left: 29px;
+    margin-top: 6px;
+    font-size: 15px;
+    color: #6c6d83;
+    width: 321px;
+    border: 1px solid #c7c7cf;
+    font-family: 'Montserrat', sans-serif;
+    appearance: none;
+    background: url(images/arrow.png) no-repeat 292px 17px;
+}
+section .numbers {
+    border: solid 1px #b19dfd;
+    border-radius: 20px;
+    height: 40px;
+    width: 318px;
+    background-image: linear-gradient(to bottom,#b59dfe 0%,#90a3fa 50%);
+    margin-top: 32px;
+    margin-left: 30px;
+}
+.numbers:hover {
+    background-image: linear-gradient(to bottom,#b59dfe 0%,#90a3fa 100%);
+}
+section .numbers .text {
+    color: #fff;
+    text-align: center;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: url(images/arrow_forward.png) no-repeat 288px -2px;
+}
